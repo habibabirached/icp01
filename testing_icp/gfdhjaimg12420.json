@@ -1,0 +1,19 @@
+{
+    "image_ts": "",
+    "defect_severity": "n_a",
+    "defect_location": "",
+    "defect_size": "0.0",
+    "defect_desc": "",
+    "frame": {
+        "z": 58,
+        "timestamp": 1684499126700120064,
+        "position": "",
+        "transform": "",
+        "sect": "Leading_Edge",
+        "eqHeight": 2688,
+        "eqWidth": 5376
+    },
+    "image_id": 12420,
+    "image_distance": 58.5,
+    "image_path": "./testing_icp/gfdhjaimg12420.png"
+}

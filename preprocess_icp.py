@@ -10,6 +10,7 @@ import argparse
 import json
 
 import rosbags
+import matplotlib
 import matplotlib.pyplot as plt
 from rosbags.rosbag2 import Reader
 from rosbags.serde import deserialize_cdr
@@ -21,6 +22,31 @@ import argparse
 import time
 
 from collections import defaultdict
+from importlib.metadata import version, PackageNotFoundError
+
+
+# Print versions of the imported libraries
+print(f"matplotlib version: {matplotlib.__version__}")
+print(f"numpy version: {np.__version__}")
+print(f"open3d version: {o3d.__version__}")
+print(f"pathlib version: {Path.__module__}")
+# print(f"collections version: {collections.__version__}")
+print(f"argparse version: {argparse.__version__}")
+print(f"json version: {json.__version__}")
+# print(f"rosbags version: {rosbags.__version__}")
+
+
+
+try:
+    rosbags_version = version('rosbags')
+except PackageNotFoundError:
+    rosbags_version = 'not installed'
+print(f"rosbags version: {rosbags_version}")
+
+# print(f"scipy version: {signal.__version__}")
+print(f"os module: {os.__name__}")
+print(f"time module: {time.__name__}")
+
 
 IMG_EXTENSION = ".png"
 
@@ -127,38 +153,34 @@ class Slice:
 
 
 def read_data(models_dir, section, sc, scm, uwb):
-    stl_path = os.path.join(models_dir, f'{section}-75.STL')
-    # data_path = Path.joinpath(path, 'bag_dumps/')
-
-    print(f'Reading {section} run data...')
-
-    #d = np.genfromtxt(list(data_path.glob(f'*{section}.csv'))[0], delimiter=',')
-    # sc = np.genfromtxt(list(data_path.glob('*SC.csv'))[0], delimiter=',')
-    # scm = np.genfromtxt(list(data_path.glob('*SCM.csv'))[0], delimiter=',')
-    # uwb = np.genfromtxt(list(data_path.glob('*UWB.csv'))[0], delimiter=',')
-
+    
+    stl_path = os.path.join(models_dir, f'{section}-75.STL')    
     print(f'Reading {section} STL from path {stl_path}...')
     bmesh = o3d.io.read_triangle_mesh(stl_path)
     bmesh.scale(1/1000, center=(0,0,0))
     bmesh.translate((0,0,0)) #+1.86z to z align ASW
     bmesh.compute_vertex_normals()
 
-    ##
-    # stl_path = str(data_path / f'blade/{section}-68f.STL')
-    # bm = o3d.io.read_triangle_mesh(str(stl_path))
-    # bm.scale(1/1000, center=(0,0,0))
-    # bm.translate((0,0,0)) #+1.86z to z align ASW
-    # bm.compute_vertex_normals()
-    # bmpcl = bm.sample_points_uniformly(1000000)
-    # bmpcl.estimate_normals()
-    # bmpcl.paint_uniform_color([1, 0.706, 0]) #orange, 68f
+    # Sample 2,000,000 points from the mesh (added by H.)
+    bpcl = bmesh.sample_points_uniformly(n_samples)
 
-    ref = o3d.geometry.TriangleMesh.create_coordinate_frame(size = 1)
-    bpcl = bmesh.sample_points_uniformly(1000000)
-    bpcl.estimate_normals()
-    bpcl.paint_uniform_color([0, 0.651, 0.929]) #blue, 75
-    #o3d.visualization.draw_geometries([ref, bpcl])
-    return [sc, scm, uwb], bmesh
+    # Pre-slice the points into 1000 lists based on their Z values (added by H.)
+    z_slices = defaultdict(list)
+    z_min_total = np.min(np.asarray(bpcl.points)[:, 2])
+    z_max_total = np.max(np.asarray(bpcl.points)[:, 2])
+    z_step = (z_max_total - z_min_total) / 1000.0
+
+    # Sort points into slices based on their Z value (added by H.)
+    for pt in np.asarray(bpcl.points):
+        z_index = int((pt[2] - z_min_total) // z_step)
+        z_slices[z_index].append(pt)
+
+    # ref = o3d.geometry.TriangleMesh.create_coordinate_frame(size = 1)
+    # bpcl = bmesh.sample_points_uniformly(1000000)
+    # bpcl.estimate_normals()
+    # bpcl.paint_uniform_color([0, 0.651, 0.929]) #blue, 75
+    # o3d.visualization.draw_geometries([ref, bpcl])
+    return [sc, scm, uwb], bmesh, z_slices, z_min_total, z_max_total
 
 def rot2z(scm, uwb, ts):
     scan_ind = (np.abs(scm[:,0] - ts)).argmin()
@@ -206,19 +228,36 @@ def register(source, target, tf_init):
 
     return reg.transformation, reg.fitness, reg.inlier_rmse
 
-def slice_mdl(bmesh, scan_slice, search_ratio, n_samples):
+def slice_mdl(bmesh, scan_slice, search_ratio, z_slices, z_min_total, z_max_total):
     print('Cropping the model slice...')
+    scan_slice_internal_start = time.time()      
+
     z = scan_slice.z
     n = int(search_ratio * scan_slice.n_pts)
     pts = []
-    cm_pts = []
+
+    # Define z_min and z_max for the current slice
     z_min = z + search_ratio * (scan_slice.z_bounds[0] - z)
     z_max = z + search_ratio * (scan_slice.z_bounds[1] - z)
+    
+    z_step = (z_max_total - z_min_total) / 1000.0   # (added by H.)
+    z_min_index = int((z_min - z_min_total) // z_step)
+    z_max_index = int((z_max - z_min_total) // z_step)
 
-    bpcl = bmesh.sample_points_uniformly(n_samples)
-    for pt in np.asarray(bpcl.points):
-        if pt[2] >= z_min and pt[2] <= z_max:
-            pts.append(pt)
+    # Loop through relevant slices and add points (added by H.)
+    for z_index in range(z_min_index, z_max_index + 1):
+        # If the current slice is fully within z_min and z_max, append all points directly
+        if z_index > z_min_index and z_index < z_max_index:
+            pts.extend(z_slices[z_index])
+        else:
+            # For the boundary slices, check individual points
+            for pt in z_slices[z_index]:
+                if z_min <= pt[2] <= z_max:
+                    pts.append(pt)
+
+
+    scan_slice_duration = time.time() - scan_slice_internal_start
+    print ("scan_slice_duration = ", scan_slice_duration)
     
     return Slice(pts, z, (z_min, z_max))
 
@@ -288,7 +327,7 @@ def visualize(source, target, tf=np.eye(4)):
                                 width = 3140, height = 1920)
 
 def estimate_poses_icp(ts_list, models_dir, section, sc, scm, uwb):
-    run_data, bmesh = read_data(models_dir, section, sc, scm, uwb)
+    run_data, bmesh ,z_slices, z_min_total, z_max_total = read_data(models_dir, section, sc, scm, uwb)
     ts_poses_dict = collections.defaultdict(dict)
     time_scan_slice = 0
     time_model_slice = 0
@@ -302,7 +341,7 @@ def estimate_poses_icp(ts_list, models_dir, section, sc, scm, uwb):
             time_scan_slice += time.time() - scan_slice_start
 
             model_slice_start = time.time()
-            model_slice = slice_mdl(bmesh, scan_slice, search_ratio, n_samples)
+            model_slice = slice_mdl(bmesh, scan_slice, search_ratio, z_slices, z_min_total, z_max_total)
             time_model_slice += time.time() - model_slice_start
 
             icp_start = time.time()
@@ -364,6 +403,7 @@ if __name__ == '__main__':
         list_of_bags = os.listdir(bag_dir)
         assert(len(list_of_bags) == 1)
         uwb, rot_raw, scm, sc = read_bag(os.path.join(bag_dir, list_of_bags[0]))
+        
 
         # get the augmented pose list
         ts_poses_dict = estimate_poses_icp(frame_list, models_dir, section, sc, scm, uwb)
@@ -398,4 +438,3 @@ if __name__ == '__main__':
             outfile.write(image_json)
         
         # Path.joinpath(Path(json_out_dir), Path(f'{section}.json')).write_text(json.dumps(ts_poses_dict, indent=4) + '\n')
-

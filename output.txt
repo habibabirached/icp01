@@ -1,0 +1,1666 @@
+
+
+python3.10 original.py --section Leading_Edge --frame_list_path ./ros/GS012460_index_to_z_mapping.csv --json_out_dir ./testing_icp --video_ident gfdhja --models_dir ./models --enable_icp True --bag_dir ./ros/Ros
+
+Reading Leading_Edge run data...
+Reading Leading_Edge STL from path ./models/Leading_Edge-75.STL...
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.13003274489253103
+Estimated z of 3.5253958994542987m at z_init: 3.4699999904632537m and z uwb: 3.009999990463257m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008462793958360791
+Estimated z of 3.8966535465680696m at z_init: 3.872499933242797m and z uwb: 3.569999933242798m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009650584189706126
+Estimated z of 4.559776167117503m at z_init: 4.531250057220465m and z uwb: 3.940000057220459m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.00903764443492548
+Estimated z of 5.126109041162345m at z_init: 5.150000019073493m and z uwb: 4.480000019073486m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008652538146292455
+Estimated z of 5.748173785315418m at z_init: 5.769999904632575m and z uwb: 5.099999904632568m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008399536663919653
+Estimated z of 6.219555828467995m at z_init: 6.197499923706061m and z uwb: 5.579999923706055m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010372029585709151
+Estimated z of 6.586080877271767m at z_init: 6.610000057220466m and z uwb: 5.940000057220459m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.00941928133862694
+Estimated z of 7.064766991733897m at z_init: 7.090000076293952m and z uwb: 6.420000076293945m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008437978029027625
+Estimated z of 7.744841646431421m at z_init: 7.7150000953674365m and z uwb: 7.150000095367432m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010387486053383304
+Estimated z of 8.118020334922686m at z_init: 8.139999790191657m and z uwb: 7.46999979019165m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.028964543208828998
+Estimated z of 8.268399650614485m at z_init: 8.289999885559089m and z uwb: 7.619999885559082m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009119922184269125
+Estimated z of 9.609853452101081m at z_init: 9.591249999999985m and z uwb: 9.0m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009397716389986594
+Estimated z of 10.062200386277127m at z_init: 10.037500076293927m and z uwb: 9.420000076293945m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.016698259704636613
+Estimated z of 10.36069505819426m at z_init: 10.380000038146953m and z uwb: 9.710000038146973m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009377177163045685
+Estimated z of 11.044872055486676m at z_init: 11.025000152587905m and z uwb: 11.09000015258789m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008729737150582981
+Estimated z of 12.052163753580004m at z_init: 12.029999694824209m and z uwb: 11.569999694824219m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009824365995881684
+Estimated z of 12.266444073376443m at z_init: 12.25m and z uwb: 12.0m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.015237401779720935
+Estimated z of 12.86957210817183m at z_init: 12.890000267028789m and z uwb: 12.220000267028809m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008836530416703445
+Estimated z of 13.465556074284798m at z_init: 13.4637496948242m and z uwb: 12.819999694824219m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.012084040032300696
+Estimated z of 13.94972470515913m at z_init: 13.93874961853026m and z uwb: 13.399999618530273m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.013022132830362762
+Estimated z of 14.308752356273478m at z_init: 14.300000190734863m and z uwb: 14.050000190734863m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.013499485414805371
+Estimated z of 14.949411904487617m at z_init: 14.970000190734844m and z uwb: 14.300000190734863m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010387423627676189
+Estimated z of 15.590490562295543m at z_init: 15.578749961853013m and z uwb: 15.039999961853027m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010315818471690675
+Estimated z of 16.154581282963914m at z_init: 16.15375022888182m and z uwb: 15.510000228881836m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010070496254879775
+Estimated z of 16.669282381214096m at z_init: 16.657500915527326m and z uwb: 16.040000915527344m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009384585837093791
+Estimated z of 17.156378997005994m at z_init: 17.14249916076659m and z uwb: 16.6299991607666m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010383858931539596
+Estimated z of 17.723487822552833m at z_init: 17.718750305175767m and z uwb: 17.18000030517578m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009598463309998667
+Estimated z of 18.19694955143557m at z_init: 18.19374923706053m and z uwb: 17.549999237060547m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009541239166592469
+Estimated z of 18.674040303701673m at z_init: 18.67124992370604m and z uwb: 18.079999923706055m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.00991117239772353
+Estimated z of 19.057052400372527m at z_init: 19.053749847412092m and z uwb: 18.40999984741211m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008946411589641273
+Estimated z of 19.52283859366773m at z_init: 19.516250686645495m and z uwb: 19.030000686645508m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008957980138277245
+Estimated z of 20.006618001104243m at z_init: 20.00374969482421m and z uwb: 19.56999969482422m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008660533202630693
+Estimated z of 20.69072834327387m at z_init: 20.6874996948242m and z uwb: 20.06999969482422m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008911633208415029
+Estimated z of 21.04011282819452m at z_init: 21.036249237060535m and z uwb: 20.549999237060547m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.020617457031490885
+Estimated z of 21.290685859239645m at z_init: 21.309999389648418m and z uwb: 20.639999389648438m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009495995791797088
+Estimated z of 22.61404674223166m at z_init: 22.613749313354475m and z uwb: 21.969999313354492m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.00951835533095
+Estimated z of 23.079807078946025m at z_init: 23.10000030517576m and z uwb: 22.43000030517578m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.00896637990259058
+Estimated z of 23.588223061984486m at z_init: 23.58124977111815m and z uwb: 22.989999771118164m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008662812229690045
+Estimated z of 24.058582729762342m at z_init: 24.056249694824206m and z uwb: 23.56999969482422m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009099609248868643
+Estimated z of 24.701786185069956m at z_init: 24.701250610351547m and z uwb: 24.110000610351562m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.014019174736702614
+Estimated z of 24.76151194854034m at z_init: 24.780000610351543m and z uwb: 24.110000610351562m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.0092080593377768
+Estimated z of 25.608787365688343m at z_init: 25.629999084472637m and z uwb: 24.959999084472656m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009088868383433934
+Estimated z of 26.05921238520169m at z_init: 26.0575005340576m and z uwb: 25.440000534057617m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008441470342750479
+Estimated z of 26.730240870608704m at z_init: 26.727500610351544m and z uwb: 26.110000610351562m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008541832807302785
+Estimated z of 27.26297033728222m at z_init: 27.25749938964842m and z uwb: 26.639999389648438m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.00998342303325736
+Estimated z of 27.629257646015695m at z_init: 27.64999954223631m and z uwb: 26.979999542236328m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008779964696113205
+Estimated z of 28.03897825784766m at z_init: 28.037500076293927m and z uwb: 27.420000076293945m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009113421279863103
+Estimated z of 28.662882882265038m at z_init: 28.661249694824203m and z uwb: 28.06999969482422m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009170952085791556
+Estimated z of 29.053357650248753m at z_init: 29.053749847412092m and z uwb: 28.40999984741211m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.008925596318431516
+Estimated z of 29.610241419695992m at z_init: 29.60374908447264m and z uwb: 28.959999084472656m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009045567718281418
+Estimated z of 29.995434546733243m at z_init: 29.99375038146971m and z uwb: 29.350000381469727m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.00905217332206729
+Estimated z of 30.45108195229675m at z_init: 30.449999771118154m and z uwb: 29.989999771118164m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009112067422115804
+Estimated z of 31.015692259535683m at z_init: 31.01375083923338m and z uwb: 30.3700008392334m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009802477540734326
+Estimated z of 31.616250824938493m at z_init: 31.639999313354473m and z uwb: 30.969999313354492m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009410471787429759
+Estimated z of 32.00556443621571m at z_init: 32.003750610351545m and z uwb: 31.360000610351562m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009259213968380454
+Estimated z of 32.675810336901556m at z_init: 32.67500061035163m and z uwb: 32.11000061035156m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009598895799215813
+Estimated z of 32.935966967811595m at z_init: 32.935001831054706m and z uwb: 32.58000183105469m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009462135002721507
+Estimated z of 33.32548167907691m at z_init: 33.32250045776368m and z uwb: 33.02000045776367m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009855582226005626
+Estimated z of 33.921743161503116m at z_init: 33.923751678466836m and z uwb: 33.4900016784668m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.01005575242268748
+Estimated z of 34.35524772425026m at z_init: 34.35374908447274m and z uwb: 33.709999084472656m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009355160942787143
+Estimated z of 34.91832003458892m at z_init: 34.91875106811529m and z uwb: 34.380001068115234m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010018782948245918
+Estimated z of 35.38867785204048m at z_init: 35.38749954223636m and z uwb: 34.97999954223633m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009492243743840518
+Estimated z of 35.78850626985815m at z_init: 35.78750015258788m and z uwb: 35.59000015258789m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009903468710137968
+Estimated z of 36.42008056308824m at z_init: 36.4199990844727m and z uwb: 35.959999084472656m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010046636976061429
+Estimated z of 36.792404507556626m at z_init: 36.7937506103516m and z uwb: 36.36000061035156m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.01008256056796617
+Estimated z of 37.35593138765994m at z_init: 37.35375106811523m and z uwb: 37.130001068115234m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010008930731594612
+Estimated z of 38.03467357158546m at z_init: 38.032500457763724m and z uwb: 37.52000045776367m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.014701288293920813
+Estimated z of 38.39574955222155m at z_init: 38.39375000000008m and z uwb: 37.75m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009688355213733778
+Estimated z of 39.54930932868429m at z_init: 39.553748931884805m and z uwb: 39.119998931884766m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009588293447668242
+Estimated z of 40.1358549086763m at z_init: 40.136251525878954m and z uwb: 39.650001525878906m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009979884002066099
+Estimated z of 40.533484206664966m at z_init: 40.53124862670906m and z uwb: 39.939998626708984m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.014533348766488105
+Estimated z of 40.98376838470266m at z_init: 40.98375015258797m and z uwb: 40.34000015258789m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010881445613070735
+Estimated z of 41.93509500638409m at z_init: 41.93375000000004m and z uwb: 41.5m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010332591024859096
+Estimated z of 42.2561729307456m at z_init: 42.25374969482426m and z uwb: 41.81999969482422m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.01068394445699004
+Estimated z of 42.63940411353429m at z_init: 42.64249923706051m and z uwb: 42.54999923706055m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010629018973879429
+Estimated z of 43.15085022926329m at z_init: 43.150001525878906m and z uwb: 42.900001525878906m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010494117751473261
+Estimated z of 43.42894110089834m at z_init: 43.428751373290986m and z uwb: 43.310001373291016m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.011036010134473234
+Estimated z of 44.3918158300917m at z_init: 44.3925001525879m and z uwb: 44.09000015258789m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.011326865392318178
+Estimated z of 45.05372566982647m at z_init: 45.052500915527396m and z uwb: 44.540000915527344m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.011300230381507289
+Estimated z of 45.424723966308775m at z_init: 45.42624862670903m and z uwb: 44.939998626708984m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.011229317072416752
+Estimated z of 46.076079315043955m at z_init: 46.07625015258794m and z uwb: 45.59000015258789m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.011022412254575682
+Estimated z of 46.303893096030265m at z_init: 46.30250000000001m and z uwb: 46.0m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.011226148212458958
+Estimated z of 46.50402250216007m at z_init: 46.506248626708945m and z uwb: 46.439998626708984m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.011340790368347871
+Estimated z of 46.8935132104773m at z_init: 46.892498321533125m and z uwb: 47.0099983215332m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.011888627391570716
+Estimated z of 47.527943326416214m at z_init: 47.52750091552729m and z uwb: 47.540000915527344m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.011723748021140257
+Estimated z of 48.25296096871986m at z_init: 48.25750137329101m and z uwb: 48.060001373291016m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.010483360109191434
+Estimated z of 48.945490858200145m at z_init: 48.94374832153324m and z uwb: 48.5099983215332m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.00984881099599176
+Estimated z of 49.51570817192328m at z_init: 49.51500076293952m and z uwb: 48.95000076293945m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.009496860667715755
+Estimated z of 49.945283674967364m at z_init: 49.94750091552738m and z uwb: 49.540000915527344m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+Best result with rmse = 0.011914964807612134
+Estimated z of 49.971909962303954m at z_init: 49.97249816894532m and z uwb: 49.66999816894531m
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 50.80999954223624
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 50.836249542236246
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 50.86249954223625
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 50.888749542236255
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 50.91499954223626
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 50.94124954223627
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 50.967499542236276
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 50.99374954223628
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.019999542236285
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.04624954223629
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.072499542236294
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.0987495422363
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.12499954223631
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.151249542236314
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.17749954223632
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.203749542236324
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.22999954223633
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.25624954223633
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.28249954223634
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.30874954223634
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.334999542236346
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.36124954223636
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.38749954223636
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.41374954223637
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.43999954223637
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.466249542236376
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.49249954223638
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.518749542236385
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.5449995422364
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.5712495422364
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.597499542236406
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.62374954223641
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.649999542236415
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.07999999999991
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.10624999999992
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.13249999999992
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.15874999999993
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.18499999999993
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.21124999999994
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.23749999999995
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.26374999999995
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.28999999999996
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.31624999999996
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.342499999999966
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.36874999999997
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.39499999999998
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.421249999999986
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.44749999999999
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.473749999999995
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.5
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.526250000000005
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.55250000000001
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.578750000000014
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.60500000000002
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.63125000000003
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.657500000000034
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.68375000000004
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.71000000000004
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.73625000000005
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.76250000000005
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.78875000000006
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.81500000000007
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.84125000000007
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.86750000000008
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.89375000000008
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 51.92000000000009
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.499998168945226
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.52624816894523
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.552498168945235
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.57874816894524
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.604998168945244
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.631248168945255
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.65749816894526
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.683748168945264
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.70999816894527
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.736248168945274
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.76249816894528
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.78874816894528
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.814998168945294
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.8412481689453
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.8674981689453
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.89374816894531
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.91999816894531
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.94624816894532
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.97249816894532
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.998748168945326
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.02499816894533
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.05124816894534
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.07749816894535
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.10374816894535
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.129998168945356
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.15624816894536
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.182498168945365
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.20874816894537
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.23499816894538
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.261248168945386
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.28749816894539
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.313748168945395
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.3399981689454
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.89000137329093
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.91625137329093
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.94250137329094
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.96875137329094
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.99500137329095
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.02125137329096
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.04750137329096
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.07375137329097
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.10000137329097
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.12625137329098
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.15250137329098
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.178751373290986
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.205001373291
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.231251373291
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.25750137329101
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.28375137329101
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.310001373291016
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.33625137329102
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.362501373291025
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.38875137329103
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.415001373291034
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.441251373291045
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.46750137329105
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.493751373291055
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.52000137329106
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.546251373291064
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.57250137329107
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.59875137329107
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.625001373291084
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.65125137329109
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.67750137329109
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.7037513732911
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.7300013732911
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.89000137329093
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.91625137329093
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.94250137329094
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.96875137329094
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 52.99500137329095
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.02125137329096
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.04750137329096
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.07375137329097
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.10000137329097
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.12625137329098
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.15250137329098
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.178751373290986
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.205001373291
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.231251373291
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.25750137329101
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.28375137329101
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.310001373291016
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.33625137329102
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.362501373291025
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.38875137329103
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.415001373291034
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.441251373291045
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.46750137329105
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.493751373291055
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.52000137329106
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.546251373291064
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.57250137329107
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.59875137329107
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.625001373291084
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.65125137329109
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.67750137329109
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.7037513732911
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 53.7300013732911
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.190000610351476
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.21625061035148
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.242500610351485
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.26875061035149
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.295000610351494
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.321250610351505
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.34750061035151
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.373750610351514
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.40000061035152
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.426250610351524
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.45250061035153
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.47875061035153
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.505000610351544
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.53125061035155
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.55750061035155
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.58375061035156
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.61000061035156
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.63625061035157
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.66250061035157
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.688750610351576
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.71500061035158
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.74125061035159
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.7675006103516
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.7937506103516
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.820000610351606
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.84625061035161
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.872500610351615
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.89875061035162
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.92500061035163
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.951250610351636
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.97750061035164
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.003750610351645
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.03000061035165
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.80000122070304
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.82625122070304
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.85250122070305
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.87875122070305
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.905001220703056
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.93125122070307
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.95750122070307
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 54.98375122070308
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.01000122070308
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.036251220703086
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.06250122070309
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.088751220703095
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.11500122070311
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.14125122070311
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.167501220703116
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.19375122070312
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.220001220703125
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.24625122070313
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.272501220703134
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.29875122070314
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.32500122070314
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.351251220703155
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.37750122070316
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.403751220703164
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.43000122070317
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.45625122070317
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.48250122070318
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.50875122070318
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.535001220703194
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.5612512207032
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.5875012207032
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.61375122070321
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.64000122070321
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.350000457763585
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.37625045776359
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.402500457763594
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.4287504577636
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.4550004577636
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.481250457763615
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.50750045776362
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.533750457763624
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.56000045776363
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.58625045776363
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.61250045776364
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.63875045776364
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.665000457763654
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.69125045776366
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.71750045776366
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.74375045776367
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.77000045776367
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.796250457763676
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.82250045776368
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.848750457763686
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.87500045776369
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.9012504577637
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.927500457763706
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.95375045776371
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.980000457763715
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.00625045776372
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.032500457763724
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.05875045776373
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.08500045776374
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.111250457763745
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.13750045776375
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.163750457763754
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.19000045776376
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.69999893188468
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.72624893188468
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.75249893188469
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.77874893188469
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.8049989318847
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.83124893188471
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.85749893188471
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.88374893188472
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.90999893188472
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.93624893188473
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.96249893188473
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 55.988748931884736
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.01499893188475
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.04124893188475
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.06749893188476
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.09374893188476
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.119998931884766
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.14624893188477
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.172498931884775
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.19874893188478
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.224998931884784
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.251248931884795
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.2774989318848
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.303748931884805
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.32999893188481
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.356248931884814
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.38249893188482
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.40874893188482
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.434998931884834
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.46124893188484
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.48749893188484
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.51374893188485
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.53999893188485
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.44999893188468
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.47624893188468
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.50249893188469
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.52874893188469
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.5549989318847
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.58124893188471
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.60749893188471
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.63374893188472
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.65999893188472
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.68624893188473
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.71249893188473
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.738748931884736
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.76499893188475
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.79124893188475
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.81749893188476
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.84374893188476
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.869998931884766
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.89624893188477
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.922498931884775
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.94874893188478
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.974998931884784
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.001248931884795
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.0274989318848
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.053748931884805
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.07999893188481
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.106248931884814
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.13249893188482
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.15874893188482
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.184998931884834
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.21124893188484
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.23749893188484
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.26374893188485
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.28999893188485
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.690000610351476
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.71625061035148
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.742500610351485
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.76875061035149
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.795000610351494
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.821250610351505
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.84750061035151
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.873750610351514
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.90000061035152
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.926250610351524
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.95250061035153
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 56.97875061035153
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.005000610351544
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.03125061035155
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.05750061035155
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.08375061035156
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.11000061035156
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.13625061035157
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.16250061035157
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.188750610351576
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.21500061035158
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.24125061035159
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.2675006103516
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.2937506103516
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.320000610351606
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.34625061035161
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.372500610351615
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.39875061035162
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.42500061035163
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.451250610351636
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.47750061035164
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.503750610351645
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.53000061035165
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.28999908447257
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.316249084472574
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.34249908447258
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.36874908447258
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.39499908447259
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.4212490844726
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.447499084472604
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.47374908447261
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.49999908447261
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.52624908447262
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.55249908447262
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.578749084472626
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.60499908447264
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.63124908447264
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.65749908447265
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.68374908447265
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.709999084472656
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.73624908447266
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.762499084472665
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.78874908447267
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.814999084472674
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.841249084472686
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.86749908447269
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.893749084472695
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.9199990844727
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.946249084472704
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.97249908447271
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.99874908447271
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.024999084472725
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.05124908447273
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.077499084472734
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.10374908447274
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.12999908447274
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.89000137329093
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.91625137329093
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.94250137329094
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.96875137329094
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 57.99500137329095
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.02125137329096
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.04750137329096
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.07375137329097
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.10000137329097
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.12625137329098
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.15250137329098
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.178751373290986
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.205001373291
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.231251373291
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.25750137329101
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.28375137329101
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.310001373291016
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.33625137329102
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.362501373291025
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.38875137329103
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.415001373291034
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.441251373291045
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.46750137329105
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.493751373291055
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.52000137329106
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.546251373291064
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.57250137329107
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.59875137329107
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.625001373291084
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.65125137329109
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.67750137329109
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.7037513732911
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.7300013732911
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.749998168945226
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.77624816894523
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.802498168945235
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.82874816894524
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.854998168945244
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.881248168945255
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.90749816894526
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.933748168945264
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.95999816894527
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.986248168945274
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.01249816894528
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.03874816894528
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.064998168945294
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.0912481689453
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.1174981689453
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.14374816894531
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.16999816894531
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.19624816894532
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.22249816894532
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.248748168945326
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.27499816894533
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.30124816894534
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.32749816894535
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.35374816894535
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.379998168945356
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.40624816894536
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.432498168945365
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.45874816894537
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.48499816894538
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.511248168945386
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.53749816894539
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.563748168945395
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.5899981689454
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.749998168945226
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.77624816894523
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.802498168945235
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.82874816894524
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.854998168945244
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.881248168945255
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.90749816894526
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.933748168945264
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.95999816894527
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 58.986248168945274
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.01249816894528
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.03874816894528
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.064998168945294
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.0912481689453
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.1174981689453
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.14374816894531
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.16999816894531
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.19624816894532
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.22249816894532
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.248748168945326
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.27499816894533
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.30124816894534
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.32749816894535
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.35374816894535
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.379998168945356
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.40624816894536
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.432498168945365
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.45874816894537
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.48499816894538
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.511248168945386
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.53749816894539
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.563748168945395
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.5899981689454
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.339998321533116
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.36624832153312
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.392498321533125
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.41874832153313
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.444998321533134
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.471248321533146
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.49749832153315
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.523748321533155
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.54999832153316
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.576248321533164
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.60249832153317
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.62874832153317
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.654998321533185
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.68124832153319
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.707498321533194
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.7337483215332
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.7599983215332
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.78624832153321
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.81249832153321
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.83874832153322
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.86499832153322
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.89124832153323
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.91749832153324
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.94374832153324
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.96999832153325
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.99624832153325
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.022498321533256
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.04874832153326
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.07499832153327
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.10124832153328
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.12749832153328
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.153748321533286
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.17999832153329
+'NoneType' object is not subscriptable
+Matching rotation count to Z estimate...
+Building the scan slice...
+Cropping the model slice...
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.530000762939366
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.55625076293937
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.582500762939375
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.60875076293938
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.635000762939384
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.661250762939396
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.6875007629394
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.713750762939405
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.74000076293941
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.766250762939414
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.79250076293942
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.81875076293942
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.845000762939435
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.87125076293944
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.897500762939444
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.92375076293945
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.95000076293945
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 59.97625076293946
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.00250076293946
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.02875076293947
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.05500076293947
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.08125076293948
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.10750076293949
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.13375076293949
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.1600007629395
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.1862507629395
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.212500762939506
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.23875076293951
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.26500076293952
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.29125076293953
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.31750076293953
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.343750762939536
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Did not converge for z_init: 60.37000076293954
+'NoneType' object is not subscriptable
+Scan Slice Time: 1.4249238967895508
+Model Slice Time: 81.01938462257385
+ICP Time: 89.71598815917969

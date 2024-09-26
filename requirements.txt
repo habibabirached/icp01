@@ -1,0 +1,9 @@
+matplotlib==3.7.2
+numpy==1.26.0
+open3d==0.18.0
+pathlib==1.0.1
+# collections==3.11.6  # This is part of the Python standard library
+# argparse==1.4.0  # Part of standard library, but the latest
+# json==2.0.9  # Also part of Python's standard library
+rosbags==0.9.19
+scipy==1.11.3

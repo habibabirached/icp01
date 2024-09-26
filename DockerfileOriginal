@@ -1,0 +1,77 @@
+FROM ros:iron-ros-base
+USER 0
+
+# # Set proxy info
+ENV NO_PROXY="ge.com"
+ENV HTTP_PROXY=http://proxy.research.ge.com:80
+ENV HTTPS_PROXY=http://proxy.research.ge.com:80
+ENV http_proxy=http://proxy.research.ge.com:80
+ENV https_proxy=http://proxy.research.ge.com:80
+RUN echo "Acquire::http::Proxy \"${http_proxy}\";" | tee -a /etc/apt/apt.conf
+RUN echo "Acquire::https::Proxy \"${https_proxy}\";" | tee -a /etc/apt/apt.conf
+RUN set -ex
+
+RUN apt-get clean && apt-get update --fix-missing
+RUN apt-get install -y apt-transport-https
+
+# Install dependencies
+RUN apt-get install --fix-missing \
+    ffmpeg \
+    make \
+    gcc \
+    libjpeg-dev \
+    imagemagick \
+    python3 \
+    git \
+    python3-pip \
+    curl \
+    sqlite3 -y
+RUN apt-get install --fix-missing mosquitto-clients \
+    uuid \
+    jq -y
+RUN apt-get install zip unzip tar -y
+
+# Add the GE cert to the path
+RUN set -ex \
+    && curl -fSsL "https://static.gecirtnotification.com/browser_remediation/packages/GE_External_Root_CA_2_1.crt" -o /usr/share/ca-certificates/GE_External_Root_CA_2_1.crt \
+    && update-ca-certificates
+
+# RUN set -ex \
+#     && curl -fSsL "https://static.gecirtnotification.com/browser_remediation/packages/GE_External_Root_CA_2_1.crt" -o /usr/local/share/ca-certificates/GE_External_Root_CA_2_1.crt \
+#     && update-ca-certificates
+# install python dependencies
+RUN pip3 install tqdm \
+    pandas \
+    rosbags==0.9.19 \
+    scipy \
+    zxing-cpp \
+    opencv-python \
+    matplotlib \
+    numpy==1.26.4 \ 
+    pyarrow \
+    paho-mqtt \
+    open3d
+
+ADD ./bdc-scripts /frame_extractor/bdc-scripts
+# Install node for upload script
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash && \
+    apt-get install -y nodejs
+
+
+ADD ./preprocess_icp/models /models
+ADD ./VERSION /frame_extractor/VERSION
+
+ADD ./src /frame_extractor/src
+ADD ./config /config
+COPY ./preprocess_icp/preprocess_icp.py /frame_extractor/src/preprocess_icp.py
+COPY ./max2sphere /frame_extractor/src
+WORKDIR /frame_extractor
+ENV PATH="${PATH}:/frame_extractor/src"
+
+
+
+# Need to be in bdc-scripts to run upload script
+# WORKDIR /frame_extractor/bdc-scripts
+# RUN npm install
+RUN chmod -R 777 /frame_extractor/
+CMD /frame_extractor/src/entry_point.sh
